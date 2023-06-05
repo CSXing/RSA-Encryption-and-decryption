@@ -48,11 +48,6 @@ enum 枚举_值类型
 
 class 类定义_标识值;
 
-#pragma pack(1)
-typedef struct 树定义_列表指针 {
-    void *当前, *下一个;
-} *树定义_p列表指针;
-
 typedef struct 树定义_标识值
 {
     char 标识[32], *值;
